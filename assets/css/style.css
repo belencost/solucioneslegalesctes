@@ -333,6 +333,30 @@ p {
   font-weight: 300;
 }
 
+.hero.secundario {
+  color: white;
+  text-align: center;
+  padding: 80px 20px 40px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+.hero.secundario h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #fcd34d;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.hero.secundario p {
+  font-size: 1.2rem;
+  margin: 8px auto;
+  max-width: 700px;
+  font-weight: 300;
+}
+
+
 .valores {
   list-style: none;
   padding-left: 0;
