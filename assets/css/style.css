@@ -290,7 +290,7 @@ main, header, footer {
 
 h1, h2, h3 {
   font-weight: 600;
-  color: #ffffff;
+  color: #111;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -333,9 +333,6 @@ body, h1, h2, h3, p {
   text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
 }
 
-h1, h2, h3, p, label, li, a {
-  color: #111 !important;
-}
 
 
 /*
