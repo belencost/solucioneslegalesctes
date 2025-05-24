@@ -3,29 +3,24 @@
   Descripción: Página de contacto para consultas legales
   Autor: belencostantin@gmail.com
 -->
-
+<!-- contacto.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - Soluciones Legales Ctes</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="icon" type="image/png" href="assets/images/favicon.png" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contacto - Soluciones Legales Ctes</title>
-  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
-
-
 <body>
   <div class="video-fondo">
-  <video autoplay muted loop playsinline>
-    <source src="assets/videos/fondo.mp4" type="video/mp4" />
-    Tu navegador no soporta video HTML5.
-  </video>
+    <video autoplay muted loop playsinline>
+      <source src="assets/videos/fondo.mp4" type="video/mp4" />
+    </video>
   </div>
-  <!-- Encabezado -->
   <header>
     <div class="logo-circular">
       <img src="assets/images/logo.png" alt="Logo SLC" />
@@ -38,12 +33,10 @@
       <a href="contacto.html" class="activo">Contacto</a>
     </nav>
   </header>
-  <!-- Sección de contacto -->
   <main>
     <section class="contacto">
       <h2>📩 Contacto</h2>
       <p>Completá el formulario y te responderemos a la brevedad.</p>
-
       <form action="https://formsubmit.co/tuemail" method="POST">
         <input type="hidden" name="_next" value="gracias.html">
         <input type="hidden" name="_captcha" value="false">
@@ -55,7 +48,7 @@
         <input type="email" id="email" name="email" required>
 
         <label for="telefono">📱 Teléfono (opcional):</label>
-        <input type="tel" id="telefono" name="telefono" pattern="[0-9\s\-\+]+" placeholder="Ej: +54 9 379 123456" title="Ingresá un número válido">
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9\s\-\+]+" placeholder="Ej: +54 9 379 123456">
 
         <label for="mensaje">📝 Consulta:</label>
         <textarea id="mensaje" name="mensaje" required></textarea>
@@ -64,20 +57,13 @@
       </form>
     </section>
   </main>
-
-  <!-- Pie de página -->
   <footer>
     <p>📲 <strong>WhatsApp:</strong> <a href="https://wa.me/543795350614" target="_blank">379 535 0614</a></p>
     <p>📸 <strong>Instagram:</strong> <a href="https://www.instagram.com/solucioneslegales.ctes/" target="_blank">@solucioneslegales.ctes</a></p>
-    <p>&copy; 2025 Soluciones Legales Ctes</p>
+    <p>&copy; 2025 Soluciones Legales Corrientes</p>
   </footer>
-
-  <a href="https://wa.me/543795350614" target="_blank" class="whatsapp-float" title="Enviar mensaje por WhatsApp">
-  <i class="fab fa-whatsapp"></i>
+  <a href="https://wa.me/543795350614" target="_blank" class="whatsapp-float" title="¿Necesitás ayuda?">
+    <i class="fab fa-whatsapp"></i>
   </a>
-
 </body>
-
-
 </html>
-
