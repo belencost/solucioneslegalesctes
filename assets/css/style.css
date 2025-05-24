@@ -23,25 +23,27 @@ nav a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
+  position: relative;
+  display: inline-block;
 }
 
 nav a.activo {
-  position: relative;
   font-weight: bold;
-  color: #f0db98;
+  color: #fcd34d;
 }
 
 
 nav a.activo::after {
   content: "";
   position: absolute;
-  width: 0%;
+  width: 100%;
   height: 2px;
   background-color: #fcd34d;
-  left: 50%;
+  left: 0;
   bottom: -4px;
-  transform: translateX(-50%);
-  transition: width 0.4s ease;
+  transform: scaleX(0);
+  transform-origin: center;
+  animation: animSubrayado 0.4s ease-out forwards;
 }
 
 nav a.activo:hover::after {
@@ -49,10 +51,12 @@ nav a.activo:hover::after {
 }
 
 
-@keyframes subrayado {
-  from { width: 0; }
-  to { width: 100%; }
+@keyframes animSubrayado {
+  to {
+    transform: scaleX(1);
+  }
 }
+
 
 
 
