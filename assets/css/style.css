@@ -266,6 +266,32 @@ p {
   line-height: 1.8;
 }
 
+/* Estilo hero sin recuadro sobre video */
+.hero {
+  text-align: center;
+  color: white;
+  padding: 100px 20px 60px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero h2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #fcd34d;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin: 8px auto;
+  max-width: 700px;
+  font-weight: 300;
+}
+
+
 /*
   Archivo: style.css
   Descripción: Estilos generales del sitio Soluciones Legales Ctes
