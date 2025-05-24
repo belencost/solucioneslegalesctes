@@ -1,11 +1,18 @@
+/* Estilos generales */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fefefe;
+  background-image: url('../images/fondo.jpg');
+  background-color: #fdfdfd; /* respaldo si no carga la imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #333;
+  line-height: 1.6;
 }
 
+/* Encabezado y navegación */
 header {
   background-color: #0a3871;
   color: white;
@@ -18,24 +25,115 @@ nav a {
   margin: 0 10px;
   text-decoration: none;
 }
-
+/* Contenido principal */
 main {
   padding: 40px;
 }
-
+/* Sección de presentación */
 .presentacion {
-  background: #e1ecf7;
-  padding: 20px;
-  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
-
+/* Servicios ofrecidos */
 .servicios ul {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
   list-style: square;
   margin-left: 20px;
 }
-
+/* Pie de página */
 footer {
   background: #ddd;
   text-align: center;
   padding: 10px;
 }
+
+/*-----------------------------------------------------------------*/
+
+/* Estilo para la página de contacto */
+.contacto {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto input,
+.contacto textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contacto button {
+  background-color: #0a3871;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contacto button:hover {
+  background-color: #082b5a;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  header {
+    padding: 15px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .contacto {
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  font-size: 28px;
+  padding: 15px;
+  text-align: center;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebd5a;
+}
+
+
+/*
+  Archivo: style.css
+  Descripción: Estilos generales del sitio Soluciones Legales Ctes
+  Autor: belencostantin@gmail.com
+*/
