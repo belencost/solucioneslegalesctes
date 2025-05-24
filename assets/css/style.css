@@ -458,6 +458,20 @@ button:hover,
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
+/* Enlace de “Volver al inicio” en página de agradecimiento */
+.volver-inicio {
+  color: #93c5fd; /* celeste claro */
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 15px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.volver-inicio:hover {
+  color: #bfdbfe; /* más claro al pasar el mouse */
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+}
 
 
 /*
