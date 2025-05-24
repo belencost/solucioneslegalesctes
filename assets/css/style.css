@@ -25,6 +25,14 @@ nav a {
   margin: 0 10px;
   text-decoration: none;
 }
+
+nav a.activo {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+  padding-bottom: 3px;
+}
+
+
 /* Contenido principal */
 main {
   padding: 40px;
