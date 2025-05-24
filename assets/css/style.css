@@ -375,6 +375,8 @@ body::before {
   gap: 10px;
   margin-bottom: 12px;
   font-size: 1rem;
+  line-height: 1.7; 
+  word-break: break-word; /* Evita que enlaces se salgan */
   color: #111;
 }
 
@@ -383,6 +385,26 @@ body::before {
   width: 24px;
   text-align: center;
 }
+
+.lista-iconos a,
+.seccion-caja a {
+  color: #0a3871;
+  font-weight: 500;
+  text-decoration: underline;
+  word-break: break-word;
+}
+
+.lista-iconos li .pregunta {
+  font-weight: 600;
+  margin-bottom: 2px;
+  color: #111;
+}
+
+.lista-iconos li p {
+  margin: 3px 0;
+  line-height: 1.6;
+}
+
 
 /* ANIMACIONES SUAVES -------------------------------------------- */
 
