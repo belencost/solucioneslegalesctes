@@ -14,7 +14,7 @@ body {
 
 /* Encabezado y navegación */
 header {
-  background-color: #0a3871;
+  background-color: #0f172a; /* azul minimalista */
   color: white;
   padding: 20px;
   text-align: center;
@@ -213,6 +213,30 @@ body::before {
   height: 100%;
   background: rgba(0, 0, 0, 0.5); /* Negro con 50% de opacidad */
   z-index: -1;
+}
+
+/*fondovideo*/
+.video-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-fondo video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4); /* oscurece el video para mejor lectura */
+}
+
+
+main, header, footer {
+  position: relative;
+  z-index: 1;
 }
 
 
