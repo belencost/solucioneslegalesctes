@@ -129,9 +129,20 @@ footer {
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  background: white;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.logo-circular img:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 6px 10px rgba(0, 0, 0, 0.15),
+    0 12px 20px rgba(0, 0, 0, 0.25);
+}
+
 
 
 /*boton  flotante wsp*/
