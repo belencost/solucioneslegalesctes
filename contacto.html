@@ -48,10 +48,16 @@
         <input type="email" id="email" name="email" required>
 
         <label for="telefono">📱 Teléfono (opcional):</label>
-        <input type="tel" id="telefono" name="telefono" pattern="[0-9\s\-\+]+" placeholder="Ej: +54 9 379 123456">
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9\s\-\+]+" placeholder="Ej: +3625123456">
 
         <label for="mensaje">📝 Consulta:</label>
         <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <!-- Para redirigir correctamente -->
+        <input type="hidden" name="_next" value="https://belencost.github.io/solucioneslegalesctes/gracias.html">
+
+        <!-- Para evitar captcha -->
+        <input type="hidden" name="_captcha" value="false">
 
         <button type="submit">🚀 Enviar</button>
       </form>
