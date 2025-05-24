@@ -7,7 +7,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #111;
+  color: #f5f5f5;
   line-height: 1.6;
 }
 
@@ -61,13 +61,13 @@ main {
 
 /* Secciones con fondo claro y transparente */
 .presentacion, .servicios, .contacto {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
   padding: 40px;
   border-radius: 16px;
   margin: 40px auto;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  color: #f5f5f5;
+  color: #fefefe;
   max-width: 960px;
 }
 
@@ -104,35 +104,73 @@ footer a:hover {
 
 /* Página de contacto */
 .contacto {
-  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  padding: 20px 16px;
+  border-radius: 12px;
+  max-width: 420px;
   margin: 0 auto;
+  color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.contacto h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contacto p {
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .contacto form {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+
+.contacto label {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .contacto input,
 .contacto textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.contacto textarea {
+  resize: vertical;
+  min-height: 80px;
 }
 
 .contacto button {
   background-color: #0a3871;
   color: white;
   padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
   border: none;
-  margin-top: 10px;
+  border-radius: 6px;
   cursor: pointer;
-  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .contacto button:hover {
   background-color: #082b5a;
 }
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -291,6 +329,9 @@ p {
   font-weight: 300;
 }
 
+body, h1, h2, h3, p {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
 
 /*
   Archivo: style.css
