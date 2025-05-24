@@ -1,0 +1,59 @@
+<!--
+  Archivo: contacto.html
+  Descripción: Página de contacto para consultas legales
+  Autor: belencostantin@gmail.com
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - Soluciones Legales Ctes</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>Soluciones Legales Ctes</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Sección de contacto -->
+  <main>
+    <section class="contacto">
+      <h2>Contacto</h2>
+      <p>Completá el formulario y te responderemos a la brevedad.</p>
+
+      <form action="https://formsubmit.co/belencostantin@gmail.com" method="POST">
+        <!-- Redirigir a una página de agradecimiento -->
+        <input type="hidden" name="_next" value="https://belencost.github.io/solucioneslegalesctes/gracias.html">
+        <!-- Desactivar captcha opcional -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensaje">Consulta:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Soluciones Legales Ctes</p>
+  </footer>
+
+</body>
+</html>
+

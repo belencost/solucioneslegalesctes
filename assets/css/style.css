@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #333;
+}
+
+header {
+  background-color: #0a3871;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 40px;
+}
+
+.presentacion {
+  background: #e1ecf7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.servicios ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+footer {
+  background: #ddd;
+  text-align: center;
+  padding: 10px;
+}
