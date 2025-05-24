@@ -249,22 +249,22 @@ body::before {
 }
 
 .contacto p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
 .contacto form {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 }
 
 .contacto label {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .contacto input,
@@ -272,7 +272,7 @@ body::before {
   padding: 8px 10px;
   border: none;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 16px;
   font-family: inherit;
   color: #111;
 }
