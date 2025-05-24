@@ -303,20 +303,45 @@ body::before {
     padding: 15px;
   }
 
+  nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+
   nav a {
     display: block;
-    margin: 10px 0;
+    margin: 8px 0;
+    font-size: 16px;
   }
 
   main {
-    padding: 20px;
+    padding: 20px 16px;
   }
 
   .contacto {
-    padding: 20px;
+    padding: 20px 16px;
     width: 100%;
   }
+
+  .valores-box {
+    margin: 20px 0;
+    padding: 20px 16px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
 }
+
+
 
 
 /*
