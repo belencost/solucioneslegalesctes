@@ -40,17 +40,15 @@ main {
 }
 /* Servicios ofrecidos */
 .servicios {
-  max-width: 800px;
-  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(4px);
   padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin: 40px auto;
 }
 
-.servicios ul {
-  background-color: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(4px);
-  list-style: square;
-  margin-left: 20px;
-}
 /* Pie de página */
 footer {
   background: #ddd;
