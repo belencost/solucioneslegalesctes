@@ -405,6 +405,22 @@ body::before {
   line-height: 1.6;
 }
 
+.lista-iconos li {
+  padding-bottom: 12px; /* espacio extra entre preguntas */
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1); /* línea suave divisoria */
+}
+
+.lista-iconos li:last-child {
+  border-bottom: none;
+}
+
+.titulo-seccion {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0a3871;
+  margin-bottom: 24px;
+}
+
 
 /* ANIMACIONES SUAVES -------------------------------------------- */
 
